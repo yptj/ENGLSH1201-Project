@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
@@ -7,7 +8,8 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 3;
     public int currentHealth;
 
-    public TextMeshProUGUI healthText;
+    public TextMeshProUGUI healthText;   // 可留可删
+    public Image healthBarFill;          // 拖入 HP_Bar_Fill
 
     private bool isInvincible = false;
     public float invincibleDuration = 1f;
@@ -50,6 +52,11 @@ public class PlayerHealth : MonoBehaviour
         if (healthText != null)
         {
             healthText.text = "HP: " + currentHealth;
+        }
+
+        if (healthBarFill != null)
+        {
+            healthBarFill.fillAmount = (float)currentHealth / maxHealth;
         }
     }
 
