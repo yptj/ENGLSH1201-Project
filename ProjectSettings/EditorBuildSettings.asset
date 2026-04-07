@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/Level01.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/_Scenes/Start.unity
+    guid: 876119137b7ee4ac1829a9620993fe49
+  - enabled: 1
     path: Assets/_Scenes/MainRoad.unity
     guid: 511f33d17ef744e1d994749d04289edb
   - enabled: 1
@@ -17,9 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/VictoryScene.unity
     guid: e13dffb73a27348b98a5511a0b0bdf74
-  - enabled: 1
-    path: Assets/_Scenes/Start.unity
-    guid: 876119137b7ee4ac1829a9620993fe49
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 84eb73b7d22d144d68c28cd8faf221af
+guid: 126a771a212714139aa2fece8ab2367b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2736251764300928900
-    second: Vicotry_0
+      213: -9151429941111421494
+    second: Start Button Final_0
+  - first:
+      213: -8551396036677432629
+    second: Start Button Final_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vicotry_0
+      name: Start Button Final_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 0
-        width: 1024
-        height: 1536
+        width: 1494
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 487513b7b7e19f520800000000000000
-      internalID: 2736251764300928900
+      spriteID: ac50e2574f69ff080800000000000000
+      internalID: -9151429941111421494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Start Button Final_1
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 448
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca8824ac96535980800000000000000
+      internalID: -8551396036677432629
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vicotry_0: 2736251764300928900
+      Start Button Final_0: -9151429941111421494
+      Start Button Final_1: -8551396036677432629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
